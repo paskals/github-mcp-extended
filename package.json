@@ -1,0 +1,27 @@
+{
+  "name": "github-mcp-extended",
+  "version": "1.0.0",
+  "description": "GitHub MCP server with additional API endpoints",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "chmod +x build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "milestones"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "@octokit/rest": "^21.1.1",
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}
