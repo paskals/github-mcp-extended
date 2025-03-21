@@ -144,7 +144,3 @@ npm run dev
 ```
 
 This will compile TypeScript and run the server.
-
-## License
-
-ISC
